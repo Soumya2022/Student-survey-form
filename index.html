@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Survey</title>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1>Student Survey Form</h1>
+
+            <hr class="divider" />
+        <form id="Form">
+            <div class="form-data">
+            <label for="name" id="l-name">
+                Name
+            </label>
+            <input type="text" id="name" placeholder="Enter your First name" required />
+            </div><br>
+
+            <div class="form-data">
+            <label for="last" id="l-last">
+                Last name
+            </label>
+            <input type="text" id="last" placeholder="Enter your Last name" /></div><br>
+            <div class="form-data">
+            <label for="email" id="label-e">
+                Email
+            </label>
+            <input type="email"  id="email" placeholder="Enter your email" />
+        </div><br>
+
+        <div class="form-data">
+            <label id="l-gender">
+                  Gender
+            </label>
+        <input type=radio name=initial>Male
+        <input type=radio name=initial>Female
+        <input type=radio name=initial>other
+        </div><br>
+
+        <div class="form-data">
+            <label>Address: </label>
+            <textarea rows="1" cols="18"></textarea>
+        </div><br>
+
+        <div class="form-data">
+            <label for="dob" id="l-dob">
+               DOB
+            </label>
+            <input type="Date"  id="dob">
+        </div><br>
+        <div class="form-data">
+            <label for="phone" id="l-ph">
+              Phone no.
+            </label>
+            <input type="tel"  id="phone" required >
+        </div><br>
+
+        <div class="form-data">
+            <label for="country" id="l-country">
+              Country
+            </label>
+            <select>
+                <option id="country">
+                    India
+                </option>
+                <option id="country">
+                    Sri lanka
+                </option>
+                <option id="country">
+                    Indonesia
+                </option>
+                <option id="country">
+                    Nepal
+                </option>
+            </select>
+        </div><br>
+        <div class="form-data">
+            <input type=submit value=Submit id="submitbtn">
+            <input type=reset value=Reset id="resetbtn">
+        </div>
+    </div>
+    </form>
+    </body>
+    </html>
+</html>
